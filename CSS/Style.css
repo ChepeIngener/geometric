@@ -1,0 +1,97 @@
+.h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family:'Source Sans Pro', sans-serif;
+    color: #000000ba;
+    grid-column: 2;
+
+}
+.h2 {
+    text-align: center;
+    padding:auto;
+    font-size: 20px;
+    font-family:'Source Sans Pro', sans-serif;
+    padding-bottom: 10%;
+}
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.contenedor{
+    background-color: rgb(3, 5, 3);
+    color: rgb(219, 210, 210);
+    width: 422px;
+    padding-top: 15px; 
+    border-radius: 20px;
+    padding: 6%;
+    height: 100%; 
+    font-size: 78%;
+
+}
+
+p{
+    text-align: center;
+    padding-top: 2%;
+}
+
+.contT{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+
+.columna{
+padding-left: 10px;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+input[type="number"]{
+    width: 98%;
+    padding: 25px;
+    font-family: monospace;
+    border-radius: .5rem;
+    text-align: center;
+    font-weight: 600;
+    padding-left: 5%;
+    margin: 1%;
+}
+
+label{
+    padding-left: 2%;
+}
+.btn{
+    background-color: rgb(5, 135, 248);
+    color: rgb(244, 241, 241);
+    border: 0;
+    width: 32%;
+    margin-top: 25px;
+    padding: .7rem .7rem;
+    display: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: .6rem;
+    cursor: pointer;
+    font-size: 77%;
+}
+
+footer{
+    padding-top: 50px;
+    text-align: center;
+    grid-column: 2;
+}
